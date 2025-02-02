@@ -33,7 +33,7 @@ function event_trade(e)
 			e.other:Ding();
 			e.other:AddEXP(5000);
 		else
-			e.other:SummonItem(63053); -- Item: Heartspike
+			e.other:SummonItem(63053); -- Item: Fleshweaver's Mark
 			e.other:Ding();
 			e.other:AddEXP(5000);
 		end
